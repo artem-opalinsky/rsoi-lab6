@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    max-width: 1500px;
+    justify-content: center;
+}
+
+.btn{
+    margin: 0 5px 0 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+}
+
+img{
+    margin: 10px;
+}
+.first, .second{
+    margin: 5px 10px 5px 10px;
+}
